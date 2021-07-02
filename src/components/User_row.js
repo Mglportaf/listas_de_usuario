@@ -15,7 +15,7 @@ function Urow({ user, isAbleUser, deleteUser }) {
             {/*is_active ? color="Green" : color="Red"*/}
             {/*<img style={{borderRadius:54,border:`5px solid ${color}`}} src={require(`../assets/${imgsrc}`).default} /> */}
             <div style={{marginLeft:10,width: "17%"}}>
-                <img style={{  borderRadius: 100, border: `5px solid ${is_active ? "Green" : "Red"}`, width: 80, height: "auto" }} src={imgsrc} />
+                <img style={{ marginTop:10, borderRadius: 100, border: `5px solid ${is_active ? "Green" : "Red"}`, width: 80, height: "auto" }} src={imgsrc} />
             </div>
             {/* 
             <p>{imgsrc}</p>

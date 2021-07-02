@@ -53,6 +53,7 @@ function App() {
     setListado([...listado, {id:uuidv4(), imgsrc: fimgsrc, Name: fName, LastName: fLastName, Email: fEmail,is_active:fCheck }]);
     //suponiendo que esta en  app.js y asi se pasan los param al padre
     //handledNewUserApp(fimgsrc,fName,fLastName,fEmail)
+    setShowModal(false);
     
   };
 

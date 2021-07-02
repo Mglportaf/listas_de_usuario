@@ -21,8 +21,9 @@ function Header({ countf, mostrarModalInsertar }) {
     // hijo padre 
     return (
         <div className="title">
+            <div style={{ display:'inline-flex',alignItems:'center', width:600}}>
             <h1>User Manager ({countf})</h1>
-            <button onClick={mostrarModalInsertar}>Agregar</button>
+            <button style={{borderRadius:5,marginLeft:11,fontWeight:'bold', background: "#3F51B5", color: "white", width:95,height:40 }} onClick={mostrarModalInsertar}>AGREGAR</button>
             {
                 // showModal ? <div onClick={ocultarModalInsertar} className="back-drop"></div> : null
             }
@@ -32,7 +33,7 @@ function Header({ countf, mostrarModalInsertar }) {
                 //showModal ? <Modal show={showModal} close={ocultarModalInsertar} handledNewUserh={handledNewUser}/> : null 
                 // showModal ? <Modal show={showModal} close={ocultarModalInsertar} handledNewUserh={handledNewUserApp}/> : null
             }
-
+</div>
         </div>
     );
 
