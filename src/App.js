@@ -27,6 +27,16 @@ function App() {
   const [listado, setListado] = useState(userList);
 
   }*/
+
+/*
+Mas imagenes
+https://apps.cartoonnetworkla.com/
+https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/4/368/mini/f8377cc8ee8dc0cfeaed237648d961d727737371.png
+https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/4/375/mini/be345fc9c72e7377d2dbc5b5f51b3b2a4483620.png
+https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/4/376/mini/cfb210e6f108f5a2a097f2037543d45694203524.png
+https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/425/mini/4f2cec6c7f0255bddf8e173800c8299723800776.jpg
+*/
+
   const [listado, setListado] = useState([
     {id:uuidv4(), imgsrc: 'https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/428/mini/de9276b9fedd145b6d7ce6b8a19299c63885851.jpg', Name: 'Rigbone', LastName: 'Riggs', Email: 'Rigbone@cartoonnetwork.com', is_active:true },
     {id:uuidv4(), imgsrc: 'https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/423/mini/830612af49c2cb31854ec84f781409fb74247971.png', Name: 'Ben', LastName: 'Diez', Email: 'Ben@cartoonnetwork.com', is_active:true },
