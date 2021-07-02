@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import './App.css';
+//import './App.css';
 import React, { useState } from 'react';
 import Header from './components/Header';
 import UserList from './components/UserList';
@@ -29,7 +29,7 @@ function App() {
   }*/
   const [listado, setListado] = useState([
     {id:uuidv4(), imgsrc: 'https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/428/mini/de9276b9fedd145b6d7ce6b8a19299c63885851.jpg', Name: 'Rigbone', LastName: 'Riggs', Email: 'Rigbone@cartoonnetwork.com', is_active:true },
-    {id:uuidv4(), imgsrc: 'https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/423/mini/830612af49c2cb31854ec84f781409fb74247971.png', Name: 'Ben', LastName: 'Dies', Email: 'Ben@cartoonnetwork.com', is_active:true },
+    {id:uuidv4(), imgsrc: 'https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/423/mini/830612af49c2cb31854ec84f781409fb74247971.png', Name: 'Ben', LastName: 'Diez', Email: 'Ben@cartoonnetwork.com', is_active:true },
     {id:uuidv4(), imgsrc: 'https://apps.cartoonnetworkla.com/uploads/galleries/app/app1/5/401/mini/5173732fd46f1e78ba5075e3ef82797e67885932.png', Name: 'Finn', LastName: 'Mertens ', Email: 'Finn@cartoonnetwork.com', is_active:false }
     
     

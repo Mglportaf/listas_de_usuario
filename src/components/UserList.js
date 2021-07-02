@@ -2,6 +2,7 @@ import React from 'react';
 //import reactDom from 'react-dom';
 import UserRows from './User_row';
 import styleclass from '../styles/_UserList.module.css'
+import '../styles/UserList.css'
 
 //function Ulist(props,{handledNewUserApp}) {
     function Ulist({list,deleteUser,isAbleUser}) {
@@ -11,9 +12,10 @@ const handledDelUserl = (id) => {
     handledNewUserApp(id);
   };*/
     return (
-        <div>
-            <p>Usuario</p>
+        <div className="Checkout">
+            {/*<p>Usuario</p> */}
             <ul>
+                
                 {/*{props.list.map((elemento,index) => */}
                 {
                 list.length> 0 ?

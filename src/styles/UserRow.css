@@ -1,0 +1,12 @@
+
+.Contenido  {
+    /* float: left; */
+    /* margin: 0px 8px 0px 0px; */
+    display: inline-flex;
+    align-items: center;
+    /* background-color: orange; */
+    width: 100%;
+    /* justify-content:space-around; */
+    /* text-align: right; */
+}
+

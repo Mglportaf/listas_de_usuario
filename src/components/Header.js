@@ -20,7 +20,7 @@ function Header({ countf, mostrarModalInsertar }) {
 
     // hijo padre 
     return (
-        <div>
+        <div className="title">
             <h1>User Manager ({countf})</h1>
             <button onClick={mostrarModalInsertar}>Agregar</button>
             {
