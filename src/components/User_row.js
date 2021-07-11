@@ -26,25 +26,26 @@ function Urow({ user, isAbleUser, deleteUser }) {
 
             <div style={{width: "63%"}}><p>{Name}  {LastName}  ({Email})</p></div>
             <div style={{width: "20% ", textAlign:'center', color:'#757575', display:'flex',justifyContent:'space-around' }}>
-                {
-                    is_active ?
-                    
+                <div style={{width: "50%", textAlign:'center'}}>
+                    {
+                        is_active ?                        
                         /*<button onClick={() => isAbleUser(id)}><FontAwesomeIcon icon={['fas','times']} /></button>*/
                         <FontAwesomeIcon icon={['fas','times']} 
                             onClick={() => isAbleUser(id)}
-                            />
+                        />
                         :
                         /*<button onClick={() => isAbleUser(id)}>Y</button>*/
                         <FontAwesomeIcon icon={['fas','check']} 
-                            onClick={() => isAbleUser(id)}
-                            />
-                }
-
-{/*<button onClick={() => deleteUser(id)}>T Delete</button> */}
-<FontAwesomeIcon icon={['fas','trash']} 
+                        onClick={() => isAbleUser(id)}
+                        />
+                    }
+                </div>
+                {/*<button onClick={() => deleteUser(id)}>T Delete</button> */}
+                <div style={{width: "50%", textAlign:'center'}}>
+                    <FontAwesomeIcon icon={['fas','trash']} 
                            onClick={() => deleteUser(id)}
-                            />
-                
+                    />
+                </div>                                
             </div>
         </div>
     );
